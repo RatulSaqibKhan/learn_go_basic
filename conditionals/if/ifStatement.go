@@ -7,5 +7,9 @@ func main() {
 
 	if x > 5 {
 		fmt.Println("x is Big!")
+	} else if x == 5 {
+		fmt.Println("x is Equal!")
+	} else {
+		fmt.Println("x is Less!")
 	}
 }
