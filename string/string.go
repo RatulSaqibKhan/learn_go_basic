@@ -10,7 +10,7 @@ func main() {
 	//length of a string in bytes
 	fmt.Println(len(book))
 
-	fmt.Printf("book[0] = %v (type %T)\n", book[2], book[2])
+	fmt.Printf("book[0] = %v (type %T)\n", book[0], book[0])
 	// uint8 is a byte
 
 	// String in go is immutable
@@ -24,4 +24,18 @@ func main() {
 	
 	// Slice (no start)
 	fmt.Println(book[:11])
+
+	// Concatenate string using + symbol
+	fmt.Println("t" + book[1:])
+
+	// Unicode support
+	fmt.Println("This is ½ price!")
+
+	// Multiline using back tick
+	poem :=`
+	They jumped from the burning floors—
+	one, two, a few more,
+	higher, lower.`
+	fmt.Println(poem)
+
 }
