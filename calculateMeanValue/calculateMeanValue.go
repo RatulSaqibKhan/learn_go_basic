@@ -4,18 +4,13 @@ package main
 import "fmt"
 
 func main() {
-	// Explicitly define data type
-	var x float64
-	var y float64
-
-	x = 1.0
-	y = 2.0
+	// let go define data type automatically
+	x := 1.0
+	y := 2.8
 
 	fmt.Printf("x=%v, type of %T\n", x, x)
 	fmt.Printf("x=%v, type of %T\n", y, y)
 
-	var mean float64
-
-	mean = ( x + y ) / 2
+	mean := ( x + y ) / 2
 	fmt.Printf("x=%v, type of %T\n", mean, mean)
 }
