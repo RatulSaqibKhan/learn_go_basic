@@ -4,6 +4,7 @@ package main
 import "fmt"
 
 func main() {
+	// Explicitly define data type
 	var x float64
 	var y float64
 
