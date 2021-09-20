@@ -40,6 +40,6 @@ func main() {
 
 	// Double value "for" on key, value pairs
 	for key, val := range _stock {
-		fmt.Printf("%v => %f\n", key, val)
+		fmt.Printf("%v => %.2f\n", key, val)
 	}
 }
