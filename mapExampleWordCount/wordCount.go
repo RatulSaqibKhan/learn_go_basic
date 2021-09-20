@@ -16,7 +16,7 @@ func main() {
 	countWord := map[string]int{}
 	
 	for _,word := range stringFields {
-		countWord[word]++
+		countWord[strings.ToLower(word)]++
 	}
 
 	fmt.Println(countWord)
